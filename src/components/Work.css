@@ -1,0 +1,79 @@
+#work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #work h3 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  #work .workOne {
+    background: #d9d9d9;
+    display: flex;
+    gap: 60px;
+    margin: 0 50px;
+    margin-bottom: 50px;
+  }
+  #work .workOne .workImg {
+    margin: 45px auto;
+    margin-left: 50px;
+  }
+  #work .workOne .oddugi {
+    background: url(../../public/image/oddugimain_1.png);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+  #work .workOne .workExplanation {
+    text-align: center;
+    margin-right: 20px;
+  }
+  #work .workOne .workExplanation h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  #work .workOne .workExplanation h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  #work .workOne .workExplanation ul {
+    margin-bottom: 20px;
+  }
+  #work .workOne .workExplanation .btnBox {
+    margin-top: 20px;
+  }
+  #work .workOne .workExplanation button {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #work .workOne .workExplanation .text-line {
+    line-height: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  

@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li a {
+    color: blue;
+    font-weight: bold;
+    padding: 0 50px;
+  }
+  

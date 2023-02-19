@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Main.css';
 function Main() {
   return (
     <section id="home">
@@ -11,7 +11,7 @@ function Main() {
             </div>
             <div class="mainTitleimg">
               <div class="circle">
-                <img src="" alt="메인프로필사진" />
+                <div></div>
               </div>
             </div>
           </div>
