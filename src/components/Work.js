@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.css";
 import WorkSwiper from "./WorkSwiper";
+
 function Work() {
   return (
     <section id="work">
@@ -20,14 +21,8 @@ function Work() {
               <li>html</li>
             </ul>
             <hr />
+
             <p className="text-line">
-              공공 API를 가져와서 그안에 담긴 값을 패치로 받아 <br />
-              날씨 정보를 불러와서 적용시켰으며 셀렉트태그를 만들어
-              <br />
-              지역을 선택하여 해당 지역에 해당되는 날씨가 보이게 만들었으며
-              날씨는 현재도 중요하지만 미래의 날씨도 중요하기에 API를 두개를
-              불러와 사용하게 되었습니다.
-              <br />
               느낌점 : 공공 API말고 차라리 오픈웨더 api였으면 엄청 쉽게
               끝냇을것같은 느낌이 들었으나 여러 API를 사용해 보는것이 좋을 것
               같아 만들게 되었습니다.
@@ -56,7 +51,7 @@ function Work() {
         </div>
         <div className="workOne">
           <div className="workImg">
-            <img src="./image/damdam_1.jpg" alt="금연메인화면" />
+            <img src="./image/damdam_2.jpg" alt="금연메인화면" />
           </div>
           <div className="workExplanation">
             <h3>금연도움 어플</h3>
@@ -70,7 +65,7 @@ function Work() {
             </ul>
             <hr />
             <p className="text-line">
-              금연 동기 부여 웹 앱 Node.js(express, ejs)를 이용해서 구현함
+              Node.js(express, ejs)를 이용해서 구현함
               <br />
               클라우드 타입을 통해 배포함
               <br />
