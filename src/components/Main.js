@@ -46,6 +46,13 @@ function Main() {
               https://github.com/goodcodemakers
             </a>
           </p>
+
+          <h3>수료한 과정</h3>
+
+          <p>
+            (스마트웹&콘텐츠개발)UI/UX웹디자인(웹퍼블리셔&프론트엔드개발)실무
+          </p>
+          <p>22.08~23.02</p>
         </div>
       </div>
     </section>
