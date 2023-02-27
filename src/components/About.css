@@ -1,50 +1,51 @@
 #about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #about .process {
-    margin-top: 185px;
-  }
-  #about .processcontent {
-    display: flex;
-    margin-top: 20px;
-  }
-  #about .processcontent p {
-    margin-left: 50px;
-    margin-bottom: 50px;
-  }
-  
-  #about .skill h3 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  #about .skill .skillBox {
-    background: #ffffff;
-    padding: 40px 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid #000;
-    margin-bottom: 50px;
-  }
-  #about .skill .skillBox .row {
-    margin: 25px;
-  }
-  #about .skill .skillBox .row img {
-    margin: 0 15px;
-  }
-  #about .tool h3 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  #about .tool .toolBox {
-    border: 1px solid #000;
-    background: #ffffff;
-    padding: 35px 70px;
-  }
-  #about .tool .toolBox img {
-    margin: 0 25px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+#about .process {
+  margin-top: 185px;
+}
+#about .processcontent {
+  display: flex;
+  margin-top: 20px;
+}
+#about .processcontent p {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#about .skill h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#about .skill .skillBox {
+  background: #ffffff;
+  padding: 40px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin-bottom: 50px;
+}
+#about .skill .skillBox .row {
+  margin: 25px;
+}
+#about .skill .skillBox .row img {
+  margin: 0 15px;
+}
+#about .tool h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#about .tool .toolBox {
+  border: 1px solid #000;
+  background: #ffffff;
+  padding: 35px 70px;
+}
+#about .tool .toolBox img {
+  margin: 0 25px;
+}
